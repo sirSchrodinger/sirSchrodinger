@@ -41,8 +41,9 @@ calibration.
 
 ---
 
-Also: a radiomics classifier for sclerotic bone lesions (AUC 0.985 with
-patient-grouped cross-validation, single centre), and a few Cloudflare Workers
-sites that run themselves.
+Also: the analysis for a collaborator's CT radiomics study on bone lesions
+(the question and the data are theirs; AUC 0.985 with patient-grouped
+cross-validation, single centre), and a few Cloudflare Workers sites that run
+themselves.
 
 [cv.sirschrodinger.com](https://cv.sirschrodinger.com)

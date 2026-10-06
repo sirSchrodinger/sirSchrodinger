@@ -6,12 +6,16 @@ just reported is actually true. Two of the repositories below exist in their
 current form because the first evaluation was wrong and it took a long time to
 notice.
 
-### [multicam-football-tracking](https://github.com/sirSchrodinger/multicam-football-tracking)
+### Current work (the code is private)
 
-Player tracking from fixed venue cameras at an amateur football pitch: pitch
-calibration, detection and offline tracklet stitching. IDF1 **0.835** on a
-2-minute window, against ground truth built by LLM vision agents. Over a full
-match it still breaks apart.
+**Greenhouse person detector.** A D-FINE-M student trained in-house watches my
+family's greenhouse cameras over a 4G line. On 2,918 frames I labelled it finds
+94% of people where stock YOLO11s finds 50%, at the same false-alarm rate.
+
+**Player detection from scratch.** A football player detector written in NumPy and
+CuPy with hand-derived gradients and no machine-learning library.
+
+The write-ups, with their limits, are at [cv.sirschrodinger.com](https://cv.sirschrodinger.com).
 
 ### [greenhouse-person-detection](https://github.com/sirSchrodinger/greenhouse-person-detection)
 
@@ -38,6 +42,11 @@ argue, then try hard to prove the surviving answer wrong. Most of the code is
 there to refuse text that has not survived a check: citation resolution,
 chain-of-verification, Lean checking, dimensional analysis, conformal
 calibration.
+
+### [old-kernel-modern-android](https://github.com/sirSchrodinger/old-kernel-modern-android)
+
+What breaks when you put Android 10 on a Linux 3.4 kernel with 2013-era vendor blobs, and how each of the ten
+root causes was found: by measurement, not guesswork.
 
 ---
 
